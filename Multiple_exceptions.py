@@ -3,6 +3,7 @@ try:
     f=open('sample.txt') # this  is a file not found error
     a=b # this is name error
     z=10/0 # this is zero divison error 
+    #  here if one exception is spotted it executes the except block and exits the compilation , it wont move to next line 
 
 # now we need to handle all these 3 exceptions 
 except FileNotFoundError: # this means when the File not found error is detected come to this block
@@ -12,5 +13,5 @@ except NameError as e: # here the name error exception is handled
     # as e is given to print the internal message of NameError
     print(e)
 
-except: # rest of the exceptions are handled here
+except: # rest of the exceptions are handled here, the least known exception has to kept at the end 
     print(" Some error has occured")
