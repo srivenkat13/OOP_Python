@@ -9,17 +9,19 @@ class Biscuit:
         self.taste = taste
         self.name = name
 
-    def printBrand(self):
+    def printBrandDetials(self):
         """
         printing the details 
         """
         print("Name of the Biscuit is: ", self.name)
+        print("Taste of the Biscuit is: ", self.taste)
+        print("Price of the Biscuit is: ", self.price)
 
 
 b1 = Biscuit(20,"sweet", "Parle")
 b2 = Biscuit(25, "cream", "Sunfeast")
-b1.printBrand()
-b2.printBrand()
+b1.printBrandDetials()
+b2.printBrandDetials()
  
 
  

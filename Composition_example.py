@@ -20,7 +20,7 @@ class Employee:
     def totalSalary(self):
         return self.obj_salary.annualSalary()
 
-emp=Employee("Venkat",23,15000,10000)
+emp=Employee("Venkat",21,15000,10000)
 
 print(emp.totalSalary())
 

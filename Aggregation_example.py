@@ -1,4 +1,4 @@
-#  If its Aggregation that means they are working together,but it one class is removed other still continues. Aggregation  and composition is the subset of association
+#  If its Aggregation that means they are working together,but if one class is removed other still continues. Aggregation  and composition is the subset of association
 # aggregation is a unidirectional realtion , so they can survive individually
 
 

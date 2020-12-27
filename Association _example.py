@@ -26,5 +26,5 @@ second = B(3, 4)
 
 print(second.addAllNums(first.b , first.c))
 
-
+print(first.a , first.b, first.c) # this line prints the Class  A objects
 # this example demonstrates association between two classes ( object is shared here)
